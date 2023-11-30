@@ -51,7 +51,7 @@ line-height: normal;
 .link:hover{
 
 }
-.hero {
+.hero { background-position: center;
 }
 .btn {
     color: #000;
@@ -115,4 +115,17 @@ font-size: 48px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+
+
+@media (max-width: 900px) {
+    .nav-link {
+        display: none;
+    }
+    .hero div {
+        padding-left: 0px;
+    }
+    h1 {
+        font-size: 35px;
+    }
 }
