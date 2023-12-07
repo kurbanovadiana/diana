@@ -1,0 +1,36 @@
+.text{
+    padding: 50px 0;
+}
+body, html{
+    scroll-behavior: smooth;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: antiquewhite;
+    padding: 15 px;
+    position: sticky;
+    top: 0;
+    -webkit-box-shadow: 3px 4px 17px 0px rgba(207,202,97,0.62);
+-moz-box-shadow: 3px 4px 17px 0px rgba(207,202,97,0.62);
+box-shadow: 3px 4px 17px 0px rgba(207,202,97,0.62);
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    
+}
+a:focus{
+    color: red;
+    text-decoration: underline;
+}
+@media (max-width: 600px) {
+    nav{
+        flex-wrap: wrap;
+    }
+    
+}
